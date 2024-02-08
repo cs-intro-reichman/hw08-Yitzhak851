@@ -1,0 +1,94 @@
+{
+  "tests": [
+      {
+        "name": "Test Add Method",
+        "setup": "javac PlayListMethodTester.java",
+        "run": "java PlayListMethodTester add",
+        "input": "",
+        "output": "testAdd: PASS",
+        "comparison": "exact",
+        "timeout": 10,
+        "points": 10
+      },
+      {
+        "name": "Test Remove Last Method",
+        "setup": "javac PlayListMethodTester.java",
+        "run": "java PlayListMethodTester removeLast",
+        "input": "",
+        "output": "testRemoveLast: PASS",
+        "comparison": "exact",
+        "timeout": 10,
+        "points": 10
+      },
+      {
+        "name": "Test Remove At Index Method",
+        "setup": "javac PlayListMethodTester.java",
+        "run": "java PlayListMethodTester removeAtIndex",
+        "input": "",
+        "output": "testRemoveAtIndex: PASS",
+        "comparison": "exact",
+        "timeout": 10,
+        "points": 10
+      },
+      {
+        "name": "Test Total Duration Method",
+        "setup": "javac PlayListMethodTester.java",
+        "run": "java PlayListMethodTester totalDuration",
+        "input": "",
+        "output": "testTotalDuration: PASS",
+        "comparison": "exact",
+        "timeout": 10,
+        "points": 10
+      },
+      {
+        "name": "Test Index Of Method",
+        "setup": "javac PlayListMethodTester.java",
+        "run": "java PlayListMethodTester indexOf",
+        "input": "",
+        "output": "testIndexOf: PASS",
+        "comparison": "exact",
+        "timeout": 10,
+        "points": 10
+      },
+      {
+        "name": "Test Add At Index Method",
+        "setup": "javac PlayListMethodTester.java",
+        "run": "java PlayListMethodTester addAtIndex",
+        "input": "",
+        "output": "testAddAtIndex: PASS",
+        "comparison": "exact",
+        "timeout": 10,
+        "points": 10
+      },
+      {
+        "name": "Test Sorted In Place Method",
+        "setup": "javac PlayListMethodTester.java",
+        "run": "java PlayListMethodTester sortedInPlace",
+        "input": "",
+        "output": "testSortedInPlace: PASS",
+        "comparison": "exact",
+        "timeout": 10,
+        "points": 10
+      },
+      {
+        "name": "Test Title Of Shortest Track Method",
+        "setup": "javac PlayListMethodTester.java",
+        "run": "java PlayListMethodTester titleOfShortestTrack",
+        "input": "",
+        "output": "testTitleOfShortestTrack: PASS",
+        "comparison": "exact",
+        "timeout": 10,
+        "points": 10
+      },    
+      {
+        "name": "Combined Playlist Operations Test",
+        "setup": "javac CombinedOperationsTester.java",
+        "run": "java CombinedOperationsTester",
+        "input": "",
+        "output": "Tracks added: 2\nPlaylist Size: 2\nTotal Duration: 541 seconds\nLast track removed\nPlaylist Size: 1\nTrack added: Creep\nFinal Playlist Size: 2\nFinal Total Duration: 723 seconds\nTrack 'Yesterday' added at index 0.\nTrack 'Bohemian Rhapsody' added at the end.\nTrack at index 1 removed.\nPlaylist sorted by increasing duration.\nShortest track after sorting: Yesterday\nFinal Playlist Size after additional operations: 3\nFinal Total Duration after additional operations: 848 seconds\n",
+        "comparison": "exact",
+        "timeout": 10,
+        "points": 20
+      }
+  ]
+}
