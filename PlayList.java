@@ -2,6 +2,8 @@
 /**
  * Represnts a list of musical tracks. The list has a maximum capacity (int),
  * and an actual size (number of tracks in the list, an int).
+ * @version 1.0
+ * @Author: Yitzhak Bar or
  */
 public class PlayList {
     // Fields
